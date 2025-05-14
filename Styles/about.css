@@ -32,12 +32,17 @@ body {
   justify-content: center;
   align-items: center;
 }  
+
     
           
 
 .header-section .content{
   height: 232px;
   width: 100%;    
+}
+
+.container .paragraph{
+  padding: 0px 10px;
 }
 .text-success {
   
