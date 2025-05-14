@@ -1,0 +1,96 @@
+/* Hero background image */
+.banner-section {
+  background-image: url('/ground-up/Images/Frame\ 481804\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  font-family: 'gilroy-bold';
+}
+.banner{
+    font-family: 'gilroy-bold';
+    color: #009245;
+    background-image: none;
+}
+
+/* Contact button */
+.btn-orange {
+  background-color: #fd7e14;
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #e96a04;
+  color: white;
+}
+
+/* Form styling */
+.contact-section input,
+.contact-section textarea {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-bottom: 2px solid #009245;
+  box-shadow: none;
+}
+
+.contact {
+  background-color: #EFFAF6;
+}
+
+/* Navbar links */
+.navbar .nav-link {
+  color: #000;
+}
+
+.navbar .nav-link.active {
+  color: #009245;
+  
+}
+
+/* Footer */
+
+footer {
+  background-color: #05A93D;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-container .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.socials a img {
+  height: 24px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
