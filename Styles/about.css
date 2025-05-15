@@ -32,9 +32,9 @@ body {
   justify-content: center;
   align-items: center;
 }  
-
-    
-          
+.nav-link.active {
+  padding: 7px;
+}         
 
 .header-section .content{
   height: 232px;
@@ -44,11 +44,12 @@ body {
 .container .paragraph{
   padding: 0px 10px;
 }
+
 .text-success {
   
     color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) ;
     padding-top: 57px;
-  }
+}
 
 .container .para >p{
   margin-top: 10px;
