@@ -54,6 +54,15 @@
   
 }
 
+.btn img {
+
+  height: 12px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+
+}
+
+
 /* Footer */
 
 footer {

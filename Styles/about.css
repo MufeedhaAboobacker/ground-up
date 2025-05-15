@@ -96,6 +96,10 @@ img {
    
     color: #1b8d3c ;
 }
+.text.success{
+  color: #05A93D;
+  padding-top: 57px;
+}
 
 
 
@@ -180,7 +184,7 @@ h6 {
 
 }
 .services {
-  /* width: 90%; */
+
   max-width: 1200px;
   margin: 66px auto;
 }
@@ -210,7 +214,7 @@ h6 {
   background: #ffffff;
   border-radius: 16px;
   padding: 10px 7px 45px 10px;
-  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08); */
+ 
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.08);
   text-align: left;
   font-family: 'gilroy-medium';
