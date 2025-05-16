@@ -144,6 +144,13 @@ header nav ul li a:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width:576px) {
+  .banner-content > .left{
+    display: none;
+  }
+  
+}
+
 /* Services */
 .services {
   width: 90%;
@@ -211,19 +218,19 @@ header nav ul li a:hover {
   font-family: 'gilroy-medium';
   color: #000;
   text-align: center;
-  
+  /* padding: 20px 140px; */
 }
 
 .training-cards {
-  display: flex;
+  /* display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
   margin-top: 20px;
 }
 
 .training-cards .card {
-  width: 315px;
+  /* width: 315px; */
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
@@ -278,12 +285,16 @@ header nav ul li a:hover {
   height: 19px;
   width: 10px;
 }
-
-
-
+@media (max-width:576px) {
+  .training-cards .card{
+    width: 100%;
+  }
+  
+}
 
 /* About */
 .about-container {
+  background-color: #EFFAF6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -311,7 +322,7 @@ header nav ul li a:hover {
   line-height: 28.6px;
 }
 
-.about-container .btn {
+ .about .about-container .btn {
   background-color: #05A93D;
   color: white;
   padding: 10px 30px;

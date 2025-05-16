@@ -12,13 +12,13 @@ body {
 .module-badge {
   background-color: #05A93D;
    padding: 5px 15px;
-  color:#EFFAF6;
+  color: #EFFAF6;
   display: inline-block;
   align-items: flex-start;
   text-align: left;
   margin-top: -5px;
   font-size: 18px
-  
+
  
 }
 
