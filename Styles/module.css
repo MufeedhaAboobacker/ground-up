@@ -10,12 +10,25 @@ body {
 
 
 .module-badge {
+  background-color: #05A93D;
+   padding: 5px 15px;
+  color:#EFFAF6;
   display: inline-block;
   align-items: flex-start;
   text-align: left;
   margin-top: -5px;
-  font-size: 20px;
-  padding: 5px 15px;
+  font-size: 18px
+  
+ 
+}
+
+
+.card-body .badge{
+  background-color: #05A93D;
+  border-radius: 0px;
+  padding-left: 12px;
+  padding-right: 12px
+  
 }
 
 .module-title {
@@ -35,6 +48,7 @@ body {
 .container .paragraph-4 {
   line-height: 2;
   padding-bottom: 12px;
+  color: #444444;
 }
 
 /* Module Blocks */
@@ -44,7 +58,7 @@ body {
   
   gap: 30px;
   justify-content: center;
-  padding-bottom: 100px;
+  padding: 2px 30px 90px 30px;
 
   
 
@@ -105,7 +119,7 @@ body {
 }
 
 .card-body {
-  padding: 0px 0px 0px 15px;
+  padding: 0px 15px 15px 15px;
 }
 
 .card-title {

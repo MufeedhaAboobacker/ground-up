@@ -210,7 +210,8 @@ header nav ul li a:hover {
 .trainings .container p {
   font-family: 'gilroy-medium';
   color: #000;
-  padding: 20px 140px;
+  text-align: center;
+  
 }
 
 .training-cards {
@@ -233,6 +234,8 @@ header nav ul li a:hover {
   height: auto;
 }
 
+
+
 .training-cards .card h3 {
   background-color: #05A93D;
   font-size: 12px;
@@ -252,6 +255,7 @@ header nav ul li a:hover {
 
 .training-cards .card p {
   font-family: 'gilroy-medium';
+  text-align: left;
   font-size: 13px;
   color: #333;
   padding: 2px 10px;
@@ -274,6 +278,9 @@ header nav ul li a:hover {
   height: 19px;
   width: 10px;
 }
+
+
+
 
 /* About */
 .about-container {
@@ -537,5 +544,3 @@ footer a {
   height: 24px;
   margin: 0 12px 20px;
 }
-
-
