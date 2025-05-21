@@ -65,7 +65,7 @@ header nav ul li a:hover {
 
 /* Banner */
 .banner {
-  background-image: url('Images/banner-bg-img.png');
+  background-image: url('/Images/banner-bg-img.png');
   background-size: cover;
   background-position: center;
   color: #333;
@@ -218,16 +218,19 @@ header nav ul li a:hover {
   font-family: 'gilroy-medium';
   color: #000;
   text-align: center;
-  
+  /* padding: 20px 140px; */
 }
 
 .training-cards {
-  
+  /* display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center; */
   margin-top: 20px;
 }
 
 .training-cards .card {
-  
+  /* width: 315px; */
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
